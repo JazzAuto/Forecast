@@ -37,7 +37,7 @@ public class WeatherService {
         // Parse the JSON response
         JSONObject obj = new JSONObject(jsonResponse);
 
-        // Check if the "main" key exists
+        // Check if the "main" key exists TODO: parece que por essa merda é que não fuciona
         if (!obj.has("main"))
         {
             throw new Exception("JSONObject['main'] not found");

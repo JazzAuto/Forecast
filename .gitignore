@@ -33,7 +33,7 @@ build/
 
 
 ### API_KEY ###
-src/main/java/org/example/WeatherApp/.env
+.env
 
 ### VS Code ###
 .vscode/
